@@ -31,6 +31,8 @@ if you have Docker installed on your machine the recommended setup is the follow
 
     docker run -it --rm 8bitdrive /bin/bash
 
+    docker run -it -v /Users/patryan/Development/mygithub/eightbitdriving:/code --rm 8bitdrive /bin/bash
+
 After the run command, you should be in a linux terminal window with a prompt like:
 
 `root@f78503698765:/code#`
